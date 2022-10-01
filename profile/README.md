@@ -7,10 +7,12 @@ Formed in the fall of 2022 by learners in the Data Science and Full-Stack Web De
 - [Chris Burrows](https://github.com/cbradiodrums) - *Data Scientist*
 - [Nikolay Glushetskiy](https://github.com/nikolayglushetskiy) - *Data Scientist*
 - [Jason Decker](https://github.com/jdecker117) - *Full-Stack Web Developer*
+- [Greg Somers](https://github.com/somersgreg) - *Data Scientist*
 
 ## Project Components
 ### [Pipeline](https://github.com/boardgameanalytics/bga-pipeline)
-Airflow orchestrated ETL pipeline for extracting board game data from BoardGameGeek.com using the BGAXMLAPI2.
+Airflow orchestrated ETL pipeline for extracting board game data from BoardGameGeek.com using the BGAXMLAPI2 and 
+loading it into a Postgres database.
 
 ### [Notebooks](https://github.com/boardgameanalytics/bga-notebooks)
 Exploratory python notebooks for visualizations and modeling of the data curated by the pipeline component.
