@@ -19,3 +19,6 @@ Exploratory python notebooks for visualizations and modeling of the data curated
 
 ### [Web Dashboard](https://github.com/boardgameanalytics/bga-web-dashboard)
 A web dashboard for publication of notebooks and visual exploration of the data.
+
+### [REST API](https://github.com/boardgameanalytics/bga-rest-api)
+REST API for interacting with the database written with FastAPI.
