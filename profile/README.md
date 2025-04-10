@@ -1,24 +1,19 @@
 # Board Game Analytics
 
-Formed in the fall of 2022 by learners in the Data Science and Full-Stack Web Development tracks at [Bloom Institute of Technology](https://bloomtech.com), BoardGameAnalytics is a collaborative project to explore and analyize board game data from [BoardGameGeek.com](https://boardgamegeek.com/).
-
-## Contributing Members
-- [Randy Nance](https://github.com/randynobx) - *Project Lead/Data Engineer*
-- [Chris Burrows](https://github.com/cbradiodrums) - *Data Scientist*
-- [Nikolay Glushetskiy](https://github.com/nikolayglushetskiy) - *Data Scientist*
-- [Jason Decker](https://github.com/jdecker117) - *Full-Stack Web Developer*
-- [Greg Somers](https://github.com/somersgreg) - *Data Scientist*
+Formed in the fall of 2022 by [Randy Nance](https://github.com/randynobx) and others in the Data Science and Full-Stack Web Development tracks at
+[Bloom Institute of Technology](https://bloomtech.com), BoardGameAnalytics is a collaborative project to explore and analyize board game 
+data from [BoardGameGeek.com](https://boardgamegeek.com/).
 
 ## Project Components
-### [Pipeline](https://github.com/boardgameanalytics/bga-pipeline)
-Airflow orchestrated ETL pipeline for extracting board game data from BoardGameGeek.com using the BGAXMLAPI2 and 
-loading it into a Postgres database.
+### [Backend Stack](https://github.com/boardgameanalytics/bga-backend)
+Docker stack composed of:
+- REST API for interacting with the database written with FastAPI.
+- PostgreSQL Database
+- ETL pipeline for extracting board game data from BoardGameGeek.com using the BGGXMLAPI2 and 
+loading it into the database.
 
 ### [Notebooks](https://github.com/boardgameanalytics/bga-notebooks)
 Exploratory python notebooks for visualizations and modeling of the data curated by the pipeline component.
 
 ### [Web Dashboard](https://github.com/boardgameanalytics/bga-web-dashboard)
 A web dashboard for publication of notebooks and visual exploration of the data.
-
-### [REST API](https://github.com/boardgameanalytics/bga-rest-api)
-REST API for interacting with the database written with FastAPI.
